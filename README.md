@@ -9,12 +9,12 @@ I am here to improve my management skills and to share my ideas in: video/app st
 
 Feel free to use my code, I spent many hours to give my ideas life, but it's still not perfect, don't hesitate to improve the code and use it to your own projects!
 
-[![Github](https://img.shields.io/github/followers/tom-sapletta-com?label=Follow&style=social)](https://github.com/tom-sapletta-com)
+[![Github](https://img.shields.io/github/followers/jloads?label=Follow&style=social)](https://github.com/jloads)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tom-sapletta-com&hide=html&layout=compact&theme=dark) 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jloads&hide=html&layout=compact&theme=dark) 
 
 ### :star: 2021
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=tom-sapletta-com&show_icons=true&theme=dark)
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=jloads&show_icons=true&theme=dark)
  
 
 - 🔭 I’m currently working on Softreck Projects
