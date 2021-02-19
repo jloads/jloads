@@ -39,3 +39,52 @@ I'm Tom ... some backend developer mostly focused on PHP, JAVA, JavaScript, Pyth
 I am here to improve to share my ideas in interface application streaming
 Feel free to use my code, I spent many hours to give my ideas life, but it's still not perfect, don't hesitate to improve the code and use it to your own projects!
 - 💬 Ask me about home education
+
+
+
+## More ...
++ [All projects on github](https://github.com/jloads/)
++ [jLoads on github](https://github.com/jloads/get/)
++ [changelog.md](changelog.md)
+
+## How to use?
+
+Load to Your project [download jloads.js](https://get.jloads.com/jloads.min.js)
+
+       <script src="//get.jloads.com/jloads.min.js">
+           // Jloads is loading any media and content dynamically
+       </script>
+
+
+Add dependences, example with jquery and bootstrap, asynchronus, without special tags, only jloads logic to controll JS loading
+
+       <script>
+           // load content ASAP with dependencies, that jquery must be first and after that bootstrap
+           jl.file({
+               "//code.jquery.com/jquery-3.5.1.min.js": [
+                   "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
+                   "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+               ]
+           });
+       </script>
+
+
+
+# Przykładowe MVP
+implementacja MVP z biblioteką jLoads
+
+### Proste przeładowanie tła, tekstu, grafiki
++ [get.jloads.com](https://get.jloads.com/)
+
+
+### Formularz
++ [FaaS](https://www.faas.ovh/)
++ [faas-ovh/www: Website](https://github.com/faas-ovh/www)
+
+### Edytor
++ [edit](https://edit.ovh/)
++ [plainedit/flat: Edit is an example on ovh domain](https://github.com/plainedit/flat)
+
+### Aplikacja do nauki gramatyki
++ [www.gramatyka .de](https://www.gramatyka.de/)
++ [tom-sapletta-com/gramatyka-de: Nauka Gramatyki Niemieckiej poprzez matrycę](https://github.com/tom-sapletta-com/gramatyka-de)
