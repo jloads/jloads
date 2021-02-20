@@ -3,7 +3,9 @@
 
 ![logo.jloads.com](https://logo.jloads.com/6/cover.png)
 
-# stay native and react faster!
+# jLoads - streaming application interface
+
+## stay native and react faster!
 only for old school javascript developers
 + JSON definition
 + native JS code over framework's
@@ -14,20 +16,13 @@ Are you for legacy code ready?
 + let's try with jLoads
      
 
-## [Biblioteka jLoads](https://docs.jloads.com)
-
+## Korzyści
 + oferuje streamowanie interfejsu aplikacji
-
 + wspiera natywne rozwiązania, dzięki temu ułatwia rozwój projektów z tzw. kodem zastanym (legacy code)
-
 + stworzony dla programistów szukających prostych rozwiązań nastawionych na utrzymanie starszych aplikacji
-
 + zorientowany na modularyzację oraz płaską ale rozproszoną strukturę projektu
-
 + wspiera proces refaktoryzacji, modularyzacja pozwala na szybkie wdrożenie, dając gwarancję zgodnego, bo natywnego kodu na dekady
-
 + modularyzacja pozwala na stosowanie najnowszych rozwiązań i ominięcie pułapek stojących za frameworkami z ich aktualizacją
-
 Obecnie rozwiązanie jLoads dotyczy frontendu, ale trwają pracę nad wykorzystaniem NodeJS do wsparcia backendu, co pozwoli na uruchomienie kodu bez opóźnieniea wynikającego z ładowania plików po załadowaniu strony.
 
 
@@ -41,50 +36,36 @@ Feel free to use my code, I spent many hours to give my ideas life, but it's sti
 - 💬 Ask me about home education
 
 
-
-## More ...
+## [Dokumentacja jLoads](https://docs.jloads.com)
 + [All projects on github](https://github.com/jloads/)
-+ [jLoads on github](https://github.com/jloads/get/)
-+ [changelog.md](changelog.md)
++ [zmiany w projekcie changelog.md](changelog.md)
 
-## How to use?
+## Poniżej znajduje sie lista submodułów ładowanych w tym projekcie poprzez skrypty: 
+    clone.sh
+    pull.sh 
+    push.sh
 
-Load to Your project [download jloads.js](https://get.jloads.com/jloads.min.js)
+Operacje są wykonywane dla wszystkich repozytoriów submodułów jednocześnie
 
-       <script src="//get.jloads.com/jloads.min.js">
-           // Jloads is loading any media and content dynamically
-       </script>
-
-
-Add dependences, example with jquery and bootstrap, asynchronus, without special tags, only jloads logic to controll JS loading
-
-       <script>
-           // load content ASAP with dependencies, that jquery must be first and after that bootstrap
-           jl.file({
-               "//code.jquery.com/jquery-3.5.1.min.js": [
-                   "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
-                   "//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-               ]
-           });
-       </script>
+## Następnie wystarczy kontrolować uruchomienie lub zatrzymanie usługi:
+    start.sh
+    stop.sh
 
 
+## Submoduły wchodzące w skład projektu [jloads](https://github.com/jloads/jloads)
 
-# Przykładowe MVP
-implementacja MVP z biblioteką jLoads
++ [github.com/jloads/src - kod źródłowy](https://github.com/jloads/src/)
 
-### Proste przeładowanie tła, tekstu, grafiki
-+ [get.jloads.com](https://get.jloads.com/)
++ [get/ - zminimalizowany kod źródłowy](https://get.jloads.com/)
+    + [github.com/jloads/get](https://github.com/jloads/get/)
+
++ [build/ - skrypty do minimalizowania](https://get.jloads.com/)
+    + [github.com/jloads/build](https://github.com/jloads/get/)
+
++ [examples/ - przykładowe strony html z użyciem jloads](https://examples.jloads.com/)
+    + [github.com/jloads/examples](https://github.com/jloads/examples/)
+    
++ [github.com/jloads/nodejs - serwer do uruchamiania stron www po stronie serwera](https://github.com/jloads/nodejs/)
 
 
-### Formularz
-+ [FaaS](https://www.faas.ovh/)
-+ [faas-ovh/www: Website](https://github.com/faas-ovh/www)
 
-### Edytor
-+ [edit](https://edit.ovh/)
-+ [plainedit/flat: Edit is an example on ovh domain](https://github.com/plainedit/flat)
-
-### Aplikacja do nauki gramatyki
-+ [www.gramatyka .de](https://www.gramatyka.de/)
-+ [tom-sapletta-com/gramatyka-de: Nauka Gramatyki Niemieckiej poprzez matrycę](https://github.com/tom-sapletta-com/gramatyka-de)
