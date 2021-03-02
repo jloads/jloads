@@ -7,7 +7,7 @@ TODO:
 https://www.npmjs.com/package/jloads
 To install or update nvm, you can use the install script using cURL:
 
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+    curl -o- https://raw.githubusercontent.com/jloads/nvm/v0.31.0/install.sh | bash
 
 
 <!--
@@ -46,7 +46,7 @@ The example of jloadscode: [github.com](https://github.com/jloads/jloads/blob/ma
 
 [![npm version](https://badge.fury.io/js/jloads.svg)](https://badge.fury.io/js/jloads)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjavascript-jloads%2Fjavascript-jloads.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjavascript-jloads%2Fjavascript-jloads?ref=badge_shield)
-![Build Status](https://github.com/jloads/jloads/workflows/JavaScript%20Obfuscator%20CI/badge.svg)
+![Build Status](https://github.com/jloads/jloads/workflows/JavaScript%20jloads%20CI/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/jloads/jloads/badge.svg)](https://coveralls.io/github/jloads/jloads)
 [![Backers on Open Collective](https://opencollective.com/jloads/backers/badge.svg)](#backers)
 [![Sponsors on Open Collective](https://opencollective.com/jloads/sponsors/badge.svg)](#sponsors)
@@ -55,8 +55,8 @@ The example of jloadscode: [github.com](https://github.com/jloads/jloads/blob/ma
 #### You can support this project by donating:
 * (OpenCollective) https://opencollective.com/jloads
 * PayPal credit card [https://www.paypal.com/donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=jloads@yandex.ru&lc=US&no_note=0&item_name=Support+jloads&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted)
-* PayPal https://www.paypal.me/javascriptobfuscator
-* (Bitcoin) 1Nv2773RDNzodHDxuxaYkTvwBkYRHmPhnG
+* PayPal https://www.paypal.me/jloads
+* (Bitcoin) 1Nv2773RDNzodHDxuxaYkTjloads
 
 Huge thanks to all supporters!
 
