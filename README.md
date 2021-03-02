@@ -4,23 +4,22 @@
 ![logo.jloads.com](https://logo.jloads.com/6/cover.png)
 
 TODO:
-https://www.npmjs.com/package/javascript-obfuscator
+https://www.npmjs.com/package/jloads
 To install or update nvm, you can use the install script using cURL:
 
     curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
 
 
 <!--
-  Title: JavaScript Obfuscator
-  Description: A powerful obfuscator for JavaScript and Node.js.
+  Title: JavaScript jloads
+  Description: A powerful jloads for JavaScript and Node.js.
   Author: Timofey Kachalov
   -->
 
-# JavaScript obfuscator
+# JavaScript jloads
 
-![logo](https://raw.githubusercontent.com/javascript-obfuscator/javascript-obfuscator/master/images/logo.png)
-
-JavaScript Obfuscator is a powerful free obfuscator for JavaScript, containing a variety of features which provide protection for your source code.
+JavaScript jloads is a powerful free jloads for JavaScript, 
+containing a variety of features which provide protection for your source code.
 
 **Key features:**
 - variables renaming
@@ -28,34 +27,34 @@ JavaScript Obfuscator is a powerful free obfuscator for JavaScript, containing a
 - dead code injection
 - control flow flattening
 - various code transformations
-- and [more](#javascript-obfuscator-options)...
+- and [more](#jloads-options)...
 
-The example of obfuscated code: [github.com](https://github.com/javascript-obfuscator/javascript-obfuscator/blob/master/examples/javascript-obfuscator.js)
+The example of jloadscode: [github.com](https://github.com/jloads/jloads/blob/master/examples/jloads.js)
 
 #### Online version:
-[obfuscator.io](https://obfuscator.io)
+[jloads.io](https://jloads.io)
 
 #### Plugins:
-* Webpack plugin: [webpack-obfuscator](https://github.com/javascript-obfuscator/webpack-obfuscator)
-* Webpack loader: [obfuscator-loader](https://github.com/javascript-obfuscator/obfuscator-loader)
-* Gulp: [gulp-javascript-obfuscator](https://github.com/javascript-obfuscator/gulp-javascript-obfuscator)
-* Grunt: [grunt-contrib-obfuscator](https://github.com/javascript-obfuscator/grunt-contrib-obfuscator)
-* Rollup: [rollup-plugin-javascript-obfuscator](https://github.com/javascript-obfuscator/rollup-plugin-javascript-obfuscator)
+* Webpack plugin: [webpack-jloads](https://github.com/jloads/webpack-jloads)
+* Webpack loader: [jloads-loader](https://github.com/jloads/jloads-loader)
+* Gulp: [gulp-jloads](https://github.com/jloads/gulp-jloads)
+* Grunt: [grunt-contrib-jloads](https://github.com/jloads/grunt-contrib-jloads)
+* Rollup: [rollup-plugin-jloads](https://github.com/jloads/rollup-plugin-jloads)
 * Weex: [weex-devtool](https://www.npmjs.com/package/weex-devtool)
-* Malta: [malta-js-obfuscator](https://github.com/fedeghe/malta-js-obfuscator)
-* Netlify plugin: [netlify-plugin-js-obfuscator](https://www.npmjs.com/package/netlify-plugin-js-obfuscator)
+* Malta: [malta-js-jloads](https://github.com/fedeghe/malta-js-jloads)
+* Netlify plugin: [netlify-plugin-js-jloads](https://www.npmjs.com/package/netlify-plugin-js-jloads)
 
-[![npm version](https://badge.fury.io/js/javascript-obfuscator.svg)](https://badge.fury.io/js/javascript-obfuscator)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjavascript-obfuscator%2Fjavascript-obfuscator.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjavascript-obfuscator%2Fjavascript-obfuscator?ref=badge_shield)
-![Build Status](https://github.com/javascript-obfuscator/javascript-obfuscator/workflows/JavaScript%20Obfuscator%20CI/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/javascript-obfuscator/javascript-obfuscator/badge.svg)](https://coveralls.io/github/javascript-obfuscator/javascript-obfuscator)
-[![Backers on Open Collective](https://opencollective.com/javascript-obfuscator/backers/badge.svg)](#backers)
-[![Sponsors on Open Collective](https://opencollective.com/javascript-obfuscator/sponsors/badge.svg)](#sponsors)
-[![xscode](https://img.shields.io/badge/Available%20on-xs%3Acode-blue?style=?style=plastic&logo=appveyor&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAAAlUlEQVR42uzXSwqAMAwE0Mn9L+3Ggtgkk35QwcnSJo9S+yGwM9DCooCbgn4YrJ4CIPUcQF7/XSBbx2TEz4sAZ2q1RAECBAiYBlCtvwN+KiYAlG7UDGj59MViT9hOwEqAhYCtAsUZvL6I6W8c2wcbd+LIWSCHSTeSAAECngN4xxIDSK9f4B9t377Wd7H5Nt7/Xz8eAgwAvesLRjYYPuUAAAAASUVORK5CYII=)](https://xscode.com/sanex3339/javascript-obfuscator)
+[![npm version](https://badge.fury.io/js/jloads.svg)](https://badge.fury.io/js/jloads)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjavascript-jloads%2Fjavascript-jloads.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjavascript-jloads%2Fjavascript-jloads?ref=badge_shield)
+![Build Status](https://github.com/jloads/jloads/workflows/JavaScript%20Obfuscator%20CI/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/jloads/jloads/badge.svg)](https://coveralls.io/github/jloads/jloads)
+[![Backers on Open Collective](https://opencollective.com/jloads/backers/badge.svg)](#backers)
+[![Sponsors on Open Collective](https://opencollective.com/jloads/sponsors/badge.svg)](#sponsors)
+[![xscode](https://img.shields.io/badge/Available%20on-xs%3Acode-blue?style=?style=plastic&logo=appveyor&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAAAlUlEQVR42uzXSwqAMAwE0Mn9L+3Ggtgkk35QwcnSJo9S+yGwM9DCooCbgn4YrJ4CIPUcQF7/XSBbx2TEz4sAZ2q1RAECBAiYBlCtvwN+KiYAlG7UDGj59MViT9hOwEqAhYCtAsUZvL6I6W8c2wcbd+LIWSCHSTeSAAECngN4xxIDSK9f4B9t377Wd7H5Nt7/Xz8eAgwAvesLRjYYPuUAAAAASUVORK5CYII=)](https://xscode.com/sanex3339/jloads)
 
 #### You can support this project by donating:
-* (OpenCollective) https://opencollective.com/javascript-obfuscator
-* PayPal credit card [https://www.paypal.com/donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=javascript-obfuscator@yandex.ru&lc=US&no_note=0&item_name=Support+javascript-obfuscator&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted)
+* (OpenCollective) https://opencollective.com/jloads
+* PayPal credit card [https://www.paypal.com/donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=jloads@yandex.ru&lc=US&no_note=0&item_name=Support+jloads&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted)
 * PayPal https://www.paypal.me/javascriptobfuscator
 * (Bitcoin) 1Nv2773RDNzodHDxuxaYkTvwBkYRHmPhnG
 
@@ -68,7 +67,7 @@ Huge thanks to all supporters!
 ## :warning: Important
 ##### Only obfuscate the code that belongs to you.
 
-It is not recommended to obfuscate vendor scripts and polyfills, since the obfuscated code is 15-80% slower (depends on options) and the files are significantly larger.
+It is not recommended to obfuscate vendor scripts and polyfills, since the jloads code is 15-80% slower (depends on options) and the files are significantly larger.
 
 ## Installation
 
@@ -77,11 +76,11 @@ It is not recommended to obfuscate vendor scripts and polyfills, since the obfus
 Install the package with Yarn or NPM and add it to your `dependencies` or `devDependencies`:
 
 ```sh
-$ yarn add --dev javascript-obfuscator
+$ yarn add --dev jloads
 ```
 or
 ```sh
-$ npm install --save-dev javascript-obfuscator
+$ npm install --save-dev jloads
 ```
 
 #### In a Browser
@@ -89,13 +88,13 @@ $ npm install --save-dev javascript-obfuscator
 From CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/javascript-obfuscator/dist/index.browser.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jloads/dist/index.browser.js"></script>
 ```
 
 From `node_modules`:
 
 ```html
-<script src="./node_modules/javascript-obfuscator/dist/index.browser.js"></script>
+<script src="./node_modules/jloads/dist/index.browser.js"></script>
 ```
 
 ## store
@@ -107,7 +106,7 @@ Here are all jloads media friendly modules and content, avaliable on jBodys.com
 ## Usage
 
 ```javascript
-var JavaScriptObfuscator = require('javascript-obfuscator');
+var JavaScriptObfuscator = require('jloads');
 
 
 # jLoads - streaming application interface
