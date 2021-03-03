@@ -3,6 +3,12 @@
 
 ![logo.jloads.com](https://logo.jloads.com/6/cover.png)
 
+
+RELEASE
+
+https://github.com/jloads/get/releases/
+
+
 TODO:
 https://www.npmjs.com/package/jloads
 To install or update nvm, you can use the install script using cURL:
