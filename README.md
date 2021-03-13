@@ -19,8 +19,15 @@ To install or update nvm, you can use the install script using cURL:
 <!--
   Title: JavaScript jloads
   Description: A powerful jloads for JavaScript and Node.js.
-  Author: Timofey Kachalov
+  Author: Tom Sapletta
   -->
+
+## What is jloads?
+
++ framework
++ library
++ asset
++ utility
 
 # JavaScript jloads
 
