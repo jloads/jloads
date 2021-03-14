@@ -34,14 +34,6 @@ To install or update nvm, you can use the install script using cURL:
 JavaScript jloads is a powerful free jloads for JavaScript, 
 containing a variety of features which provide protection for your source code.
 
-**Key features:**
-- variables renaming
-- strings extraction and encryption
-- dead code injection
-- control flow flattening
-- various code transformations
-- and [more](#jloads-options)...
-
 The example of jloadscode: [github.com](https://github.com/jloads/jloads/blob/master/examples/jloads.js)
 
 #### Online version:
@@ -54,16 +46,16 @@ The example of jloadscode: [github.com](https://github.com/jloads/jloads/blob/ma
 * Grunt: [grunt-contrib-jloads](https://github.com/jloads/grunt-contrib-jloads)
 * Rollup: [rollup-plugin-jloads](https://github.com/jloads/rollup-plugin-jloads)
 * Weex: [weex-devtool](https://www.npmjs.com/package/weex-devtool)
-* Malta: [malta-js-jloads](https://github.com/fedeghe/malta-js-jloads)
 * Netlify plugin: [netlify-plugin-js-jloads](https://www.npmjs.com/package/netlify-plugin-js-jloads)
 
 [![npm version](https://badge.fury.io/js/jloads.svg)](https://badge.fury.io/js/jloads)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjavascript-jloads%2Fjavascript-jloads.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjavascript-jloads%2Fjavascript-jloads?ref=badge_shield)
 ![Build Status](https://github.com/jloads/jloads/workflows/JavaScript%20jloads%20CI/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/jloads/jloads/badge.svg)](https://coveralls.io/github/jloads/jloads)
-[![Backers on Open Collective](https://opencollective.com/jloads/backers/badge.svg)](#backers)
-[![Sponsors on Open Collective](https://opencollective.com/jloads/sponsors/badge.svg)](#sponsors)
-[![xscode](https://img.shields.io/badge/Available%20on-xs%3Acode-blue?style=?style=plastic&logo=appveyor&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAAAlUlEQVR42uzXSwqAMAwE0Mn9L+3Ggtgkk35QwcnSJo9S+yGwM9DCooCbgn4YrJ4CIPUcQF7/XSBbx2TEz4sAZ2q1RAECBAiYBlCtvwN+KiYAlG7UDGj59MViT9hOwEqAhYCtAsUZvL6I6W8c2wcbd+LIWSCHSTeSAAECngN4xxIDSK9f4B9t377Wd7H5Nt7/Xz8eAgwAvesLRjYYPuUAAAAASUVORK5CYII=)](https://xscode.com/sanex3339/jloads)
+[![Backers on Open Collective](https://opencollective.com/softreck/backers/badge.svg)](#backers)
+[![Sponsors on Open Collective](https://opencollective.com/softreck/sponsors/badge.svg)](#sponsors)
+
+[![xs:code](https://img.shields.io/static/v1?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iNDUiIHZpZXdCb3g9IjAgMCAzMCA0NSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwLjgzMjEgMzcuNDg4OVYyOS40NzJDMjAuODMyMSAyNi43NjQ1IDE5LjI5NjggMjQuNjY5MiAxNi44NTMxIDI0Ljk1NDJWMjAuMTgzMUMxOS4yOTY4IDIwLjQ2MjggMjAuODMyMSAxOC4zNTcgMjAuODMyMSAxNS42NDQyVjcuNjI3MjhDMjAuODMyMSAwLjI5MTE2NiAyNS4xMjQ2IDAuODEzNjY1IDI5LjM3NDYgMC44MTM2NjVWNC44MDM2NkMyNi45MzA5IDQuNTIzOTQgMjUuMzk1NiA0LjkxNDUgMjUuMzk1NiA3LjYyNzI4VjE1LjY0NDJDMjUuMzk1NiAxOC43NDc2IDI0LjQyODcgMjEuMTE3MyAyMi4zODM0IDIyLjUzMTdDMjQuNDI4NyAyMy45OTg5IDI1LjM5NTYgMjYuMzY4NyAyNS4zOTU2IDI5LjQ3MlYzNy40ODg5QzI1LjM5NTYgNDAuMTk2NCAyNi45MzA5IDQwLjU5MjMgMjkuMzc0NiA0MC4zMTI2VjQ0LjYwMzRDMjUuNjkzMSA0NC41OTgxIDIwLjgzMjEgNDQuODI1MSAyMC44MzIxIDM3LjQ4ODlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMC41MDY0MDkgNDQuNTk4MVY0MC4zMDczQzIuOTUwMTYgNDAuNTg3IDQuNDg1NDcgNDAuMTk2NCA0LjQ4NTQ3IDM3LjQ4MzZWMjkuNDcyQzQuNDg1NDcgMjYuMzY4NiA1LjQ1MjM1IDIzLjk5ODkgNy40OTc2NiAyMi41MzE3QzUuNDUyMzUgMjEuMTIyNSA0LjQ4NTQ3IDE4Ljc0NzUgNC40ODU0NyAxNS42NDQyVjcuNjI3MjVDNC40ODU0NyA0LjkxOTc1IDIuOTUwMTYgNC41MjM5MiAwLjUwNjQwOSA0LjgwMzY0VjAuODEzNjM4QzQuNzU2NDEgMC44MTM2MzggOS4wNDg5MSAwLjI4NTg2IDkuMDQ4OTEgNy42MjcyNVYxNS42NDQyQzkuMDQ4OTEgMTguMzUxNyAxMC41ODQyIDIwLjQ2MjggMTMuMDI4IDIwLjE4MzFWMjQuOTU0MkMxMC41ODQyIDI0LjY3NDUgOS4wNDg5MSAyNi43NjQ1IDkuMDQ4OTEgMjkuNDcyVjM3LjQ4ODlDOS4wNDg5MSA0NC44MjUgNC4xOTMyOCA0NC41OTgxIDAuNTA2NDA5IDQ0LjU5ODFaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K&message=xs:code&label=Ping+me+on&color=%23007EFF)](https://xscode.com/profile/tom-sapletta-com)
 
 #### You can support this project by donating:
 * (OpenCollective) https://opencollective.com/jloads
@@ -76,6 +68,7 @@ Huge thanks to all supporters!
 #### *NOTE! the README on the master branch might not match that of the latest stable release!*
 
 #### If you have a question, check this section first: [FAQ](#frequently-asked-questions)
+
 
 ## :warning: Important
 ##### Only obfuscate the code that belongs to you.
